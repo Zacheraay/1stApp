@@ -1,6 +1,5 @@
 function slotMachine() {
-
-
+    var cycleImg1 = setTimeout(cycleNumber(1), 10000);
 }
 
 function cycleNumber(imgNumber) {

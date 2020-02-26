@@ -8,9 +8,9 @@
     width: 100px;
     height: 100px;
     background:red;
-    position:relative;
-    left:800px;
-    top:102px;
+    position:absolute;
+    left:50%;
+    margin-left:-150px;
 
 }
 #slot2 {
@@ -18,7 +18,9 @@
     width: 100px;
     height: 100px;
     background:green;
-    margin:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-50px;
 
 }
 #slot3 {
@@ -26,11 +28,11 @@
     width: 100px;
     height: 100px;
     background:blue;
-    position:relative;
-    left:1003px;
-    top:-102px;
+    position:absolute;
+    left:50%;
+    margin-left:50px;
 }
 
 #button{
-margin:auto;
+    margin:auto;
 }
