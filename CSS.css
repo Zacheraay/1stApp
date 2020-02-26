@@ -1,14 +1,17 @@
 #text {
     text-align: center;
     font-size: 30px;
-    font-style:
 }
+
 #slot1 {
     border: 1px solid blue;
     width: 100px;
     height: 100px;
     background:red;
     position:relative;
+    left:800px;
+    top:102px;
+
 }
 #slot2 {
     border: 1px solid blue;
@@ -24,9 +27,10 @@
     height: 100px;
     background:blue;
     position:relative;
-
+    left:1003px;
+    top:-102px;
 }
 
 #button{
-
+margin:auto;
 }
