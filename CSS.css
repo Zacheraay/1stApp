@@ -7,14 +7,14 @@
     border: 1px solid blue;
     width: 100px;
     height: 100px;
-    background:lightblue;
+    background:red;
     position:relative;
 }
 #slot2 {
     border: 1px solid blue;
     width: 100px;
     height: 100px;
-    background:lightblue;
+    background:green;
     margin:auto;
 
 }
@@ -22,7 +22,11 @@
     border: 1px solid blue;
     width: 100px;
     height: 100px;
-    background:lightblue;
+    background:blue;
     position:relative;
+
+}
+
+#button{
 
 }
