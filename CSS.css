@@ -1,13 +1,28 @@
-#Text {
+#text {
     text-align: center;
     font-size: 30px;
     font-style:
 }
-#Slot2 {
+#slot1 {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    background:lightblue;
+    position:relative;
+}
+#slot2 {
     border: 1px solid blue;
     width: 100px;
     height: 100px;
     background:lightblue;
     margin:auto;
+
+}
+#slot3 {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    background:lightblue;
+    position:relative;
 
 }
