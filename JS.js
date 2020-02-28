@@ -3,6 +3,10 @@ var count;
 function slotMachine() {
     count = 0;
     setInterval(cycleNumber, 200);
+
+    document.getElementById("slot1").style.background = "white";
+    document.getElementById("slot2").style.background = "white";
+    document.getElementById("slot3").style.background = "white";
 }
 
 function cycleNumber() {
@@ -16,23 +20,33 @@ function cycleNumber() {
     rNum2 = Math.floor(Math.random() * 10);
     rNum3 = Math.floor(Math.random() * 10);
 
+    if(count == 20){
+        document.getElementById("slot1").style.background = "gray";
+    }
     if(count < 20) {
         var image1 = document.getElementById("img1");
 
         image1.removeAttribute("src");
         image1.setAttribute("src", numbers[rNum1]);
     }
+
+
     if(count < 35) {
         var image2 = document.getElementById("img2");
 
         image2.removeAttribute("src");
         image2.setAttribute("src", numbers[rNum2]);
+    } else if(count == 35) {
+        document.getElementById("slot2").style.background = "gray";
     }
+
     if(count < 50) {
         var image3 = document.getElementById("img3");
 
         image3.removeAttribute("src");
         image3.setAttribute("src", numbers[rNum3]);
+    } else if(count == 50){
+        document.getElementById("slot3").style.background = "gray";
     }
 
 
