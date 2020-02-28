@@ -55,3 +55,19 @@ function cycleNumber() {
 }
 
 button.addEventListener("click", slotMachine)
+
+
+
+function displayWin() {
+    var slot1 = document.getElementById("slot1").getAttribute("src");
+    var slot2 = document.getElementById("slot2").getAttribute("src");
+    var slot3 = document.getElementById("slot3").getAttribute("src");
+
+    if(slot1 === slot2 && slot1 === slot3) {
+
+
+
+
+    }
+
+}
