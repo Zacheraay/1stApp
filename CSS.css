@@ -1,6 +1,7 @@
 #text {
     text-align: center;
     font-size: 30px;
+    font-style: oblique;
 }
 
 #slotHolder {
@@ -66,5 +67,12 @@
 }
 
 #button {
-    margin: center;
+    text-align: center;
+      margin: 0 auto;
+      display:block;
+    background-color: gold;
+    	border-radius: 5px;
+    border: 2px solid gold;
+
+
 }
