@@ -7,19 +7,18 @@ function slotMachine() {
     document.getElementById("slot1").style.background = "gray";
     document.getElementById("slot2").style.background = "gray";
     document.getElementById("slot3").style.background = "gray";
+
+    displayWin();
+
     count = 0;
 }
 
 function cycleNumber() {
-    var numbers = ["Images/0.png", "Images/1.png",
-                   "Images/2.png", "Images/3.png",
-                   "Images/4.png", "Images/5.png",
-                   "Images/6.png", "Images/7.png",
-                   "Images/8.png", "Images/9.png"];
+    var numbers = ["Images/0.png"];
 
-    rNum1 = Math.floor(Math.random() * 10);
-    rNum2 = Math.floor(Math.random() * 10);
-    rNum3 = Math.floor(Math.random() * 10);
+    rNum1 = Math.floor(Math.random());
+    rNum2 = Math.floor(Math.random());
+    rNum3 = Math.floor(Math.random());
 
     if (count == 20) {
         document.getElementById("slot1").style.background = "rgb(197,179,88)";
@@ -64,10 +63,7 @@ function displayWin() {
     var slot3 = document.getElementById("slot3").getAttribute("src");
 
     if(slot1 === slot2 && slot1 === slot3) {
-
-
-
-
+        document.getElementById("win").style.opacity = "1";
     }
 
 }
