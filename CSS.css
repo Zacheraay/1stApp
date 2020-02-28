@@ -3,27 +3,66 @@
     font-size: 30px;
 }
 
+#slotHolder {
+    border: 1px solid black;
+    background: gray;
+
+    position: absolute;
+    left: 25%;
+
+    width: 50%;
+    padding-top: 16.66%;
+}
+
 #slot1 {
-    border: 1px solid blue;
-    width: 10%;
-    height: 50px;
     background: red;
+    position: absolute;
+
+    width: 33.33%;
+    margin-top: -33.33%;
+    padding-top: 33.33%;
+
+    left: 0%;
+}
+
+#img1 {
+    position: absolute;
+    max-width: 100%;
+    margin-top: -100%;
 }
 
 #slot2 {
-    border: 1px solid blue;
-    width: 10%;
-    height: 50px;
     background: green;
     position: absolute;
-    margin: auto;
+
+    width: 33.33%;
+    margin-top: -33.33%;
+    padding-top: 33.33%;
+
+    left: 33.33%;
+}
+
+#img2 {
+    position: absolute;
+    max-width: 100%;
+    margin-top: -100%;
 }
 
 #slot3 {
-    border: 1px solid blue;
-    width: 10%;
-    height: 50px;
     background: blue;
+    position: absolute;
+
+    width: 33.33%;
+    margin-top: -33.33%;
+    padding-top: 33.33%;
+
+    right: 0%;
+}
+
+#img3 {
+    position: absolute;
+    max-width: 100%;
+    margin-top: -100%;
 }
 
 #button {
