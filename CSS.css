@@ -11,10 +11,8 @@ body {
 
 #slotHolder {
     background: gray;
-
     position: absolute;
     left: 25%;
-
     width: 50%;
     padding-top: 16.66%;
 }
@@ -23,11 +21,9 @@ body {
     border: 5px solid black;
     background: white;
     position: absolute;
-
     width: 33.33%;
     margin-top: -33.33%;
     padding-top: 33.33%;
-
     left: 0%;
 }
 
@@ -41,11 +37,9 @@ body {
     border: 5px solid black;
     background: white;
     position: absolute;
-
     width: 33.33%;
     margin-top: -33.33%;
     padding-top: 33.33%;
-
     left: 33.33%;
 }
 
@@ -59,11 +53,9 @@ body {
     border: 5px solid black;
     background: white;
     position: absolute;
-
     width: 33.33%;
     margin-top: -33.33%;
     padding-top: 33.33%;
-
     right: 0%;
 }
 
@@ -75,16 +67,12 @@ body {
 
 #button {
     text-align: center;
-      margin: 0 auto;
-      display:block;
-    background-color: gold;
-    	border-radius: 5px;
-    border: 2px solid gold;
-
-
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(197,179,88);
+    border-radius: 5px;
+    border: 2px solid rgb(197,179,88);
 }
-
-
 
 
 /*#lIndicator {
