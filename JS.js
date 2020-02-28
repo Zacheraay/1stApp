@@ -52,3 +52,6 @@ function cycleNumber() {
 
     count++;
 }
+
+button.addEventListener("click", slotMachine)
+
