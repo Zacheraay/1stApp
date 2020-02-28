@@ -19,7 +19,7 @@ body {
 
 #slot1 {
     border: 5px solid black;
-    background: white;
+    background: gray;
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
@@ -35,7 +35,7 @@ body {
 
 #slot2 {
     border: 5px solid black;
-    background: white;
+    background: gray;
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
@@ -51,7 +51,7 @@ body {
 
 #slot3 {
     border: 5px solid black;
-    background: white;
+    background: gray;
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
@@ -74,32 +74,9 @@ body {
     border: 2px solid rgb(197,179,88);
 }
 
-
-/*#lIndicator {
-    position: absolute;
-    background: gold;
-
-    width: 41.66%;
-    height: 100%;
-}
-
-#cIndicator {
-    position: absolute;
-    background: black;
-    opacity: 0%;
-
-    width: 16.66%;
-    height: 100%;
-
-    left: 50%;
-    margin-left: -8.33%;
-}
-
-#rIndicator {
-    position: absolute;
-    background: gold;
-    right: 0%;
-
-    width: 41.66%;
-    height: 100%;
+#win {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 300px;
+    opacity: 0;
 }

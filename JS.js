@@ -4,9 +4,9 @@ function slotMachine() {
 
     setInterval(cycleNumber, 200);
 
-    document.getElementById("slot1").style.background = "white";
-    document.getElementById("slot2").style.background = "white";
-    document.getElementById("slot3").style.background = "white";
+    document.getElementById("slot1").style.background = "gray";
+    document.getElementById("slot2").style.background = "gray";
+    document.getElementById("slot3").style.background = "gray";
     count = 0;
 }
 
