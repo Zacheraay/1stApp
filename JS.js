@@ -1,12 +1,13 @@
 var count;
 
 function slotMachine() {
-    count = 0;
+
     setInterval(cycleNumber, 200);
 
     document.getElementById("slot1").style.background = "white";
     document.getElementById("slot2").style.background = "white";
     document.getElementById("slot3").style.background = "white";
+    count = 0;
 }
 
 function cycleNumber() {

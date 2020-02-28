@@ -1,11 +1,12 @@
 body {
-    background-image: url(https://patterncooler.com/gen/index/w/casino_royale_pattern-562.jpg);
+    background-image: url("Images/background-pattern.jpg");
 }
 
 #text {
     text-align: center;
-    font-size: 30px;
+    font-size: 100px;
     font-style: oblique;
+    text-decoration: overline underline;
 }
 
 #slotHolder {
