@@ -7,20 +7,33 @@
 </head>
 
 <body>
-    <div id="text">Slot Machine</div>
-    <button id="button">How Lucky Can You Get</button>
+    <div id="currency">
+        <img id="money" src="Images/money.png">
+        <p id="value">= 100</p>
+    </div>
+
+    <div id="text">Slot Machine ~ $1</div>
+
+    <button id="button">Try Your Luck!<br/> Click Me!</button>
+
     <div id="slotHolder">
         <div id="slot1">
             <img id="img1" src="Images/0.png">
         </div>
-        <div id="slot2">
-            <img id="img2" src="Images/1.png">
-        </div>
+
         <div id="slot3">
-            <img id="img3" src="Images/2.png">
+            <img id="img3" src="Images/0.png">
+        </div>
+
+        <div id="slot2">
+            <img id="img2" src="Images/0.png">
         </div>
     </div>
-    <div id="win">You Win!</div>
+
+    <div id="winDiv">
+        <h1 id="winMsg">You Win!</h1>
+        <p id="win"></p>
+    </div>
 
 </body>
 <script src="JS.js"></script>

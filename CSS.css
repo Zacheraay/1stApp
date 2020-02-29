@@ -2,11 +2,33 @@ body {
     background-image: url("Images/background-pattern.jpg");
 }
 
+#currency {
+    position: absolute;
+    width: 20%;
+    padding-top: 10%;
+}
+
+#money {
+    position: absolute;
+    margin-top: -37.5%;
+    width: 50%;
+}
+
+#value {
+    position: absolute;
+    right: -4%;
+    margin-top: -37%;
+    font-size: 70px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
 #text {
     text-align: center;
     font-size: 100px;
     font-style: oblique;
     text-decoration: overline underline;
+    text-decoration-skip-ink: none;
 }
 
 #slotHolder {
@@ -14,7 +36,7 @@ body {
     position: absolute;
     left: 25%;
     width: 50%;
-    padding-top: 16.66%;
+    padding-top: 16.67%;
 }
 
 #slot1 {
@@ -23,8 +45,8 @@ body {
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
-    padding-top: 33.33%;
-    left: 0%;
+    padding-top: 32.33%;
+    left: -10px;
 }
 
 #img1 {
@@ -39,8 +61,9 @@ body {
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
-    padding-top: 33.33%;
+    padding-top: 32.33%;
     left: 33.33%;
+    margin-left: -5px;
 }
 
 #img2 {
@@ -55,8 +78,8 @@ body {
     position: absolute;
     width: 33.33%;
     margin-top: -33.33%;
-    padding-top: 33.33%;
-    right: 0%;
+    padding-top: 32.33%;
+    right: -10px;
 }
 
 #img3 {
@@ -71,12 +94,19 @@ body {
     display: block;
     background-color: rgb(197,179,88);
     border-radius: 5px;
-    border: 2px solid rgb(197,179,88);
+    border: 2px solid white;
+}
+
+#winDiv {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    padding-top: 15%;
+    font-size: 80px;
+    opacity: 0;
 }
 
 #win {
-    text-align: center;
-    padding-top: 15%;
-    font-size: 300px;
-    opacity: 0;
+    margin-top: -10%;
 }
