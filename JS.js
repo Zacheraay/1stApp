@@ -6,7 +6,7 @@ function slotMachine() {
     document.getElementById("winDiv").style.opacity = 0;
     clearInterval(cycle);
     count = 0;
-    amount--;
+    amount -= 5;
     document.getElementById("value").innerHTML = "= " + amount;
 
     document.getElementById("slot1").style.background = "gray";
@@ -72,7 +72,7 @@ button.addEventListener("click", slotMachine);
 function displayWin() {
     var win = false;
     var winType = 0;
-    var winMessages = ["2 of a Kind! +$5", "3 of a Kind! +$100", "Straight! +$50"];
+    var winMessages = ["2 of a Kind! +$10", "3 of a Kind! +$100", "Straight! +$50"];
 
     document.getElementById("win").innerHTML = "";
 
@@ -100,7 +100,7 @@ function displayWin() {
         document.getElementById("win").innerHTML = winMessages[winType];
 
         if (winType == 0) {
-            amount += 5;
+            amount += 10;
         } else if (winType == 1) {
             amount += 100;
         } else if (winType == 2) {
