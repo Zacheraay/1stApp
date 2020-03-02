@@ -13,7 +13,7 @@ function slotMachine() {
     document.getElementById("slot2").style.background = "gray";
     document.getElementById("slot3").style.background = "gray";
 
-    cycle = setInterval(cycleNumber, 10);
+    cycle = setInterval(cycleNumber, 100);
 }
 
 function cycleNumber() {
@@ -21,11 +21,11 @@ function cycleNumber() {
                    "Images/2.png", "Images/3.png",
                    "Images/4.png", "Images/5.png",
                    "Images/6.png", "Images/7.png",
-                   "Images/8.png", "Images/9.png", ];
+                   "Images/8.png", "Images/9.png",];
 
-    rNum1 = Math.floor(Math.random() * 10);
-    rNum2 = Math.floor(Math.random() * 10);
-    rNum3 = Math.floor(Math.random() * 10);
+    rNum1 = Math.floor(Math.random() * numbers.length);
+    rNum2 = Math.floor(Math.random() * numbers.length);
+    rNum3 = Math.floor(Math.random() * numbers.length);
 
     if (count == 20) {
         document.getElementById("slot1").style.background = "rgb(167,149,58)";
@@ -89,7 +89,7 @@ function displayWin() {
             winType = 1;
         }
     }
-    if ((num1 + num3) / 2 == num2 && Math.abs(num1 - num3) == 2) {
+    if (num1 - num2 == num2 - num3 && Math.abs(num1 - num2) == 1) {
         win = true;
         winType = 2;
     }
@@ -103,7 +103,7 @@ function displayWin() {
             amount += 5;
         } else if (winType == 1) {
             amount += 100;
-        } else if (winType == 3) {
+        } else if (winType == 2) {
             amount += 50;
         }
     }
